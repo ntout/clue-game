@@ -1,0 +1,169 @@
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+}
+
+/*Plum start*/     #row4col0, #row6col0{background-color: purple}
+/*Peacock start*/  #row17col0, #row19col0{background-color: blue}
+/*Green start*/    #row24col8, #row24col10{background-color: green}
+/*White start*/    #row24col13, #row24col15{background-color: white}
+/*Mustard start*/  #row6col23, #row8col23{background-color: yellow}
+/*Scarlet start*/  #row0col15, #row0col17{background-color: red}
+
+/*Study*/
+#row0col0, #row1col0, #row2col0, #row3col0,
+#row0col1, #row1col1,  #row3col1,
+#row0col2, #row1col2,  #row3col2,
+#row0col3, #row1col3,  #row3col3,
+#row0col4, #row1col4,  #row3col4,
+#row0col5, #row1col5,  #row3col5,
+#row0col6, #row1col6, #row2col6, #row3col6
+{
+    background-color: #575ed8;
+}
+
+/*Library*/
+           #row7col0, #row8col0,
+#row6col1, #row7col1, #row8col1,  #row10col1,
+#row6col2, #row7col2, #row8col2,  #row10col2,
+#row6col3, #row7col3, #row8col3,  #row10col3,
+#row6col4, #row7col4, #row8col4,  #row10col4,
+#row6col5, #row7col5, #row8col5, #row9col5, #row10col5,
+           #row7col6, #row8col6, #row9col6
+{
+    background-color: #575ed8;
+}
+
+/*Billiard Room*/
+#row12col0, #row13col0, #row14col0,  #row16col0,
+#row12col1, #row13col1, #row14col1,  #row16col1,
+#row12col2, #row13col2, #row14col2,  #row16col2,
+#row12col3, #row13col3, #row14col3,  #row16col3,
+#row12col4, #row13col4, #row14col4,  #row16col4,
+#row12col5, #row13col5, #row14col5, #row15col5, #row16col5
+{
+    background-color: #575ed8;
+}
+
+/*Conservatory*/
+            #row20col0, #row21col0,  #row23col0,
+#row19col1, #row20col1, #row21col1,  #row23col1,
+#row19col2, #row20col2, #row21col2,  #row23col2,
+#row19col3, #row20col3, #row21col3,  #row23col3,
+#row19col4, #row20col4, #row21col4,  #row23col4,
+            #row20col5, #row21col5, #row22col5, #row23col5
+{
+    background-color: #575ed8;
+}
+
+/*Hall*/
+#row0col9, #row1col9, #row2col9, #row3col9, #row4col9, #row5col9, #row6col9,
+#row0col10, #row1col10, #row2col10, #row3col10,  #row6col10,
+#row0col11, #row1col11, #row2col11, #row3col11,  #row6col11,
+#row0col12, #row1col12, #row2col12, #row3col12,  #row5col12, #row6col12,
+#row0col13, #row1col13, #row2col13, #row3col13, #row4col13, #row5col13, #row6col13,
+#row0col14, #row1col14, #row2col14, #row3col14, #row4col14, #row5col14, #row6col14
+{
+    background-color: #575ed8;
+}
+
+/*clue middle thing*/
+#row8col9, #row9col9, #row10col9, #row11col9, #row12col9, #row13col9, #row14col9,
+#row8col10, #row9col10, #row10col10, #row11col10, #row12col10, #row13col10, #row14col10,
+#row8col11, #row9col11, #row10col11, #row11col11, #row12col11, #row13col11, #row14col11,
+#row8col12, #row9col12, #row10col12, #row11col12, #row12col12, #row13col12, #row14col12,
+#row8col13, #row9col13, #row10col13, #row11col13, #row12col13, #row13col13, #row14col13
+{
+    background-color: #575ed8;
+}
+
+/*Ballroom*/
+#row17col8, #row18col8, #row19col8, #row20col8, #row21col8, #row22col8,
+#row17col9, #row18col9, #row19col9, #row20col9, #row21col9, #row22col9,
+#row17col10, #row18col10, #row19col10, #row20col10, #row21col10, #row22col10, #row23col10,
+#row17col11, #row18col11, #row19col11,   #row23col11,
+#row17col12, #row18col12, #row19col12,  #row22col12, #row23col12,
+#row17col13, #row18col13, #row19col13, #row20col13, #row21col13, #row22col13, #row23col13,
+#row17col14, #row18col14, #row19col14, #row20col14, #row21col14, #row22col14,
+#row17col15, #row18col15, #row19col15, #row20col15, #row21col15, #row22col15
+{
+    background-color: #575ed8;
+}
+
+/*Lounge*/
+            #row1col17, #row2col17, #row3col17, #row4col17, #row5col17,
+#row0col18, #row1col18, #row2col18, #row3col18,  #row5col18,
+#row0col19, #row1col19, #row2col19, #row3col19,  #row5col19,
+#row0col20, #row1col20, #row2col20, #row3col20,  #row5col20,
+#row0col21, #row1col21, #row2col21, #row3col21,  #row5col21,
+#row0col22, #row1col22, #row2col22, #row3col22,  #row5col22,
+#row0col23, #row1col23, #row2col23, #row3col23, #row4col23, #row5col23
+{
+    background-color: #575ed8;
+}
+
+/*Dining Room*/
+#row9col16, #row10col16, #row11col16, #row12col16, #row13col16, #row14col16,
+#row9col17, #row10col17, #row11col17, #row12col17, #row13col17, #row14col17,
+#row9col18, #row10col18, #row11col18, #row12col18,  #row14col18,
+#row9col19, #row10col19, #row11col19, #row12col19,  #row14col19, #row15col19,
+#row9col20, #row10col20, #row11col20, #row12col20,  #row14col20, #row15col20,
+#row9col21, #row10col21, #row11col21, #row12col21,  #row14col21, #row15col21,
+#row9col22, #row10col22, #row11col22, #row12col22,  #row14col22, #row15col22,
+#row9col23, #row10col23, #row11col23, #row12col23, #row13col23, #row14col23, #row15col23
+{
+    background-color: #575ed8;
+}
+
+/*Kitchen*/
+#row18col18, #row19col17, #row20col17, #row21col17, #row22col17, #row23col17,
+#row18col18, #row19col18, #row20col18, #row21col18,  #row23col18,
+#row18col19, #row19col19, #row20col19, #row21col19,  #row23col19,
+#row18col20, #row19col20, #row20col20, #row21col20,  #row23col20,
+#row18col21, #row19col21, #row20col21, #row21col21,  #row23col21,
+#row18col22, #row19col22, #row20col22, #row21col22,  #row23col22,
+#row18col23, #row19col23, #row20col23, #row21col23, #row22col23, #row23col23
+{
+    background-color: #575ed8;
+}
+
+/*Green border*/
+#row0col8, #row10col0, #row11col0, #row16col23, #row18col23, #row23col6, #row23col17, #row24col11, #row24col12,
+#row24col0, #row24col1, #row24col2, #row24col3, #row24col4, #row24col5, #row24col6, #row24col7,
+#row24col16, #row24col17, #row24col18, #row24col19, #row24col20, #row24col21, #row24col22, #row24col23
+{
+    background-color: gray;
+}
+
+/*Doors on Bottom*/  #row3col6, #row5col17, #row6col11, #row6col12, #row10col3 {border-bottom-width: thick;}
+/*Doors on Top*/  #row9col17, #row12col1, #row17col9, #row17col14, #row18col19 {border-top-width: thick;}
+/*Doors on Right*/  #row8col6, #row15col5, #row19col4, #row19col15 {border-right-width: thick;}
+/*Doors on Left*/  #row4col9, #row12col16, #row19col8 {border-left-width: thick;}
+
+
+.Plum {
+    background-color: purple;
+}
+.Peacock {
+    background-color: blue;
+}
+.Green {
+    background-color: green;
+}
+.White {
+    background-color: white;
+}
+.Mustard {
+    background-color: yellow;
+}
+.Scarlet {
+    background-color: red;
+}
