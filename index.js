@@ -4,7 +4,7 @@ var socket = require('socket.io');
 
 // App Setup
 var app = express();
-var server = app.listen(4000, function(){
+var server = app.listen('tatortout.pythonanywhere.com', function(){
     console.log('Listening to requests on port 4000');
 });
 
