@@ -24,9 +24,5 @@ for(let i=0; i < boxes.length; i++){
         n+=1;
     }
 }
-//
-// $('#btn-dice').on('click', function(){
-//     console.log('roll clicked');
-//     $('#number').text((Math.floor(Math.random() * 6) + 1))
-// });
+
 

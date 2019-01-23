@@ -4,16 +4,16 @@ const socket = require('socket.io');
 
 // App Setup
 const app = express();
-// const server = app.listen(4000, function(){
-//     console.log('Listening to requests on port 4000');
-// });
+const server = app.listen(4000, function(){
+    console.log('Listening to requests on port 4000');
+});
 
-app.set( 'port', ( process.env.PORT || 4000 ));
-
-// Start node server
-var server  = app.listen( app.get( 'port' ), function() {
-  console.log( 'Node server is running on port ' + app.get( 'port' ));
-  });
+// app.set( 'port', ( process.env.PORT || 4000 ));
+//
+// // Start node server
+// var server  = app.listen( app.get( 'port' ), function() {
+//   console.log( 'Node server is running on port ' + app.get( 'port' ));
+//   });
 
 // Static Files
 app.use(express.static('public'));
