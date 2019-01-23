@@ -85,6 +85,11 @@ td {
     background-color: #575ed8;
 }
 
+#row11col11 {
+    background-color: darkred;
+
+}
+
 /*Ballroom*/
 #row17col8, #row18col8, #row19col8, #row20col8, #row21col8, #row22col8,
 #row17col9, #row18col9, #row19col9, #row20col9, #row21col9, #row22col9,

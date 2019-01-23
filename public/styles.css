@@ -15,7 +15,7 @@ h2{
 }
 #mario-chat{
     max-width: 600px;
-    margin: 30px auto;
+    margin: 30px;
     border: 1px solid #ddd;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
     border-radius: 2px;
@@ -71,4 +71,34 @@ button{
     padding: 12px 0;
     width: 100%;
     border-radius: 0 0 2px 2px;
+}
+
+#character {
+    background-color: #cccccc;
+}
+
+#sheet-wrapper {
+    width: 250px;
+}
+
+#sheet {
+    width: 100%;
+}
+
+.item, .check-box {
+    background-color: white;
+    text-align: center;
+}
+
+.check-box input {
+    width: 100%;
+    padding: 0;
+
+}
+
+#number {
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    font-size: larger;
 }

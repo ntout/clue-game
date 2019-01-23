@@ -8,7 +8,7 @@ const app = express();
 //     console.log('Listening to requests on port 4000');
 // });
 
-app.set( 'port', ( process.env.PORT || 5000 ));
+app.set( 'port', ( process.env.PORT || 4000 ));
 
 // Start node server
 var server  = app.listen( app.get( 'port' ), function() {
@@ -41,5 +41,9 @@ io.on('connection', function(socket){
 
     socket.on('spot', function(data){
         io.sockets.emit('spot', data);
+    });
+
+    socket.on('roll', function(data){
+       io.sockets.emit('roll', data);
     });
 });

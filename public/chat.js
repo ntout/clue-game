@@ -1,5 +1,6 @@
 // Make Connection
 var socket = io.connect('http://clue-family-game.herokuapp.com/');
+// var socket = io.connect('http://localhost:4000/');
 
 //Query DOM
 var message = document.getElementById('message');
@@ -39,11 +40,21 @@ $('td').on('click', function(){
     })
 });
 
+$('#btn-dice').on('click', function(){
+    let roll = Math.floor(Math.random() * 6) + 1;
+    socket.emit('roll', {
+        diceRoll: roll
+    });
+});
+
 
 
 // Listen for events
 socket.on('chat', function(data){
     feedback.innerHTML = "";
+    if (handle.value === data.handle){
+        message.value = "";
+    }
     output.innerHTML += '<p><strong>' + data.handle + ': </strong>' + data.message + '</p>';
 });
 
@@ -79,5 +90,11 @@ socket.on('spot', function(data){
     }
     box.className = data.player
 
+});
+
+socket.on('roll', function(data){
+   console.log(data);
+
+    $('#number').text(data.diceRoll)
 });
 
