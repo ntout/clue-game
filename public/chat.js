@@ -1,5 +1,5 @@
 // Make Connection
-var socket = io.connect('http://clue-family-game.herokuapp.com/');
+var socket = io.connect('https://clue-family-game.herokuapp.com/');
 // var socket = io.connect('http://localhost:4000/');
 
 //Query DOM
